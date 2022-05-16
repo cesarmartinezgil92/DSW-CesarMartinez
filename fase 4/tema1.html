@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="css/estilos.css ">
+    <style type="text/css">
+        BODY {
+            font-family: 'Segoe UI';
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/pngwing.com.png" width="300" height="100" class="imginicio"><br>
+        <h1>Flex Box, Listas y enlaces </h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul>
+                    <li><a href="tema1.html">Flex Box</a></li>
+                    <li><a href="tema2.html">Listas y enlaces</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Recursos digitales</a>
+                <ul>
+                    <li><a href="Recurso1.html">Recurso1</a></li>
+                    <li><a href="Recurso2.html">Recurso2</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Evaluaciones</a>
+                <ul>
+                    <li><a href="evaluacion.html">Evaluación 1</a></li>
+                    <li><a href="evaluacion2.html">Evaluación 2</a></li>
+
+                </ul>
+            </li>
+            <li><a href="autor.html">A cerca de</a></li>
+        </ul>
+    </nav>
+    <section class="section-body">
+        <article>
+            <h2>Flex box</h2>
+            Modelo de diseño CSS3 en el que los elementos adaptables dentro
+            de un contenedor se organicen automáticamente dependiendo
+            del tamaño de la pantalla o del dispositivo. El elemento padre
+            que sostiene todos los elementos flex a través de dos ejes se le
+            conoce como Flex Container y cualquier elemento hijo
+            directo que se mantenga directo del contenedor flex se
+            considera un Flex Ítem.<br><br><br>
+
+
+            <img src="img/flex.png" alt=""><br>
+
+            <b>¿Que se puede hacer con Flexbox?</b><br>
+            <ul>
+                <li>- Diseños flexibles con menos código.</li><br>
+                <li>- Alinear los elementos de manera vertical y horizontal.</li><br>
+                <li>- Reordenar contenido sin tocar el HTML.</li><br>
+            </ul>
+            <h2>Conceptos básicos</h2>
+            <b>Los elementos básicos de Flexbox son:</b><br><br>
+            <b>1. Contenedor.</b> Existe un elemento padre que es el contenedor, ya que tendrá en su interior cada uno
+            de los
+            ítems flexibles y adaptables.<br><br>
+            <b>-Eje principal.</b> Los contenedores flexibles tendrán una orientación principal específica. Por defecto
+            es
+            horizontal con el valor row.<br><br>
+            <b>-Eje secundario.</b> De la misma forma que el eje principal, solo que esta orientación será perpendicular
+            a la
+            principal. Si la principal es horizontal, la secundaría será vertical con el valor column, y
+            viceversa.<br><br>
+            <b>2.Ítem. </b>bCada uno de los hijos flexibles que tendrá el contenedor en su interior.<br><br>
+            <h2>Dirección de los ejes</h2>
+            Existen dos propiedades principales para manipular la dirección y comportamiento de los ítems a lo largo del
+            eje principal del contenedor que son flex-direction y flex-wrap.<br><br>
+
+            Mediante la primera propiedad podemos modificar la dirección del eje principal del contenedor para que se
+            oriente en horizontal (por defecto) o en vertical.<br><br>
+            <h3><b>flex-direction: row</b></h3>
+            <img src="img/row.png" alt=""><br>
+
+            <h3><b>flex-direction: row-reverse</b></h3>
+            <img src="img/row-reverse.png" alt=""><br>
+
+            <h3><b>flex-direction: column</b></h3>
+            <img src="img/colum.png" alt=""><br>
+
+            <h3><b>flex-direction: column-reverse</b></h3>
+            <img src="img/colum-reverse.png" alt=""><br>
+
+            Mientras que con la segunda podemos especificar el comportamiento del contenedor respecto a evitar que se
+            desborde o permitir que lo haga.
+
+            <h3><b>flex-wrap: nowrap</b></h3>
+            <img src="img/nowrap.png" alt=""><br>
+
+            <h3><b>flex-wrap: wrap</b></h3>
+            <img src="img/wrap.png" alt=""><br>
+
+            <h2>Propiedades de alineación</h2>
+            Flexbox tiene propiedades para disponer de los ítems dependiendo de como sea nuestro diseño. A continuación
+            describiremos cada una de estas propiedades. <br><br>
+            <h3><b>Alineación al eje principal</b></h3>
+            La propiedad que nos permite alinear los ítems al eje principal es justify-content y sus valores, así como
+            la visualización de cómo se aplican estos valores a los ítems son los siguientes.<br><br>
+
+            <img src="img/flex start.png" alt="">
+            <img src="img/flex end.png" alt=""><br>
+            <img src="img/center.png" alt="">
+            <img src="img/stretch.png" alt=""><br>
+            <img src="img/baseline.png" alt=""><br>
+
+            <h3><b>Alineación al eje principal</b></h3>
+            De igual forma que para el eje principal tenemos una propiedad que nos permite alinear los ítems en el eje
+            secundario y es align-items y sus valores, así como la visualización de cómo se aplican estos valores a los
+            ítems son los siguientes.<br><br>
+
+            <img src="img/flex start.png" alt="">
+            <img src="img/flex end.png" alt=""><br>
+            <img src="img/center.png" alt="">
+            <img src="img/stretch.png" alt=""><br>
+            <img src="img/baseline.png" alt=""><br>
+            Castro González, J. (2020). Aplicación web para la evaluación y planificación de menús escolares.
+
+
+
+
+
+        </article>
+        <aside>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </section>
+    <footer> Correo: cesar_n92@hotmail.com Skype:cesar_martinez9210 Fecha de actualización: 18/04/2022</footer>
+</body>

@@ -1,0 +1,111 @@
+header{
+    background-color:#21325E;
+    color: #F1D00A;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+
+nav{
+    background-color: #3E497A;
+    color: #F0F0F0
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:0px 30px;
+   
+
+}
+article{
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/4;
+}
+
+aside{
+   
+    grid-column: 4/5;
+}
+
+footer{
+    background-color: #21325E;
+    color: #F0F0F0;
+    padding-top: 20px;
+    text-align: center;
+    width:100%;
+    position:absolute; 
+    left:0;
+   
+}
+
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+ul, ol{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu>li{
+    float:left;
+}
+.menu li a{
+    background-color: #3E497A;
+    color: #F0F0F0;
+    text-decoration: none;
+    padding: 20px 80px;
+    display:block;
+}
+
+.menu li a:hover{
+    background-color: #21325E;
+}
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+    
+
+}
+.menu li:hover > ul{
+    display:block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+
+.menu li ul li ul{
+    right: 140px;
+}
+h2{
+    color: #21325E ;
+    text-align: center;
+    background-color: #F0F0F0;
+    
+}
+.section-body{
+    min-height: 50vh; 
+}
+.infoautor{
+    text-align: center;
+}
+img.imginicio{
+margin-right: 150px;
+margin-left: 10px;
+}
